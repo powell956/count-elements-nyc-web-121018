@@ -5,10 +5,9 @@ def count_elements(array)
     if new_hash.keys.include?(el)
       new_hash[el] += 1
     else
-      
-    end 
-  end 
-  
+      new_hash[el] = 1
+    end
+  end
+
   new_hash
 end
- 
